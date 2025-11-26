@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Pop n' POP! – Support</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fafafa;
+    }
+    h1 {
+      color: #333;
+    }
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 15px;
+    }
+    button {
+      margin-top: 15px;
+      width: 100%;
+      padding: 12px;
+      background: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #43a047;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Pop n' POP! – Support</h1>
+  <p>If you need help or want to report an issue, please use the form below.</p>
+
+  <form action="mailto:popnpopapp@yahoo.com" method="POST" enctype="text/plain">
+    <label>Name</label>
+    <input type="text" name="Name" required>
+
+    <label>Email</label>
+    <input type="email" name="Email" required>
+
+    <label>Your Message</label>
+    <textarea name="Message" rows="6" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</body>
+</html>
